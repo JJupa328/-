@@ -1,0 +1,123 @@
+{
+  "username": "",
+  "avatar": "",
+  "shareUrl": "https://img-cdn.zepp.com/20230911/training.png",
+  "title": "PPC 외부 테스트 5-7-5",
+  "description": "",
+  "trainingIntervals": {
+    "type": "PARENT",
+    "children": [
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "1",
+          "intervalUnit": "10",
+          "intervalUnitValue": "5",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "strengthWeight": "0-5",
+          "intervalTypeI18nKey": "gapType_training",
+          "intervalUnitI18nKey": "gap_pickUnit1",
+          "lengthUnitI18nKey": "gap_metric",
+          "actionType": 62,
+          "actionName": "푸쉬업",
+          "selfWeightType": 1,
+          "mainPositions": [
+            5,
+            6
+          ],
+          "subPositions": [
+            22,
+            23
+          ]
+        }
+      },
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "4",
+          "intervalUnit": "1",
+          "intervalUnitValue": "60",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "intervalTypeI18nKey": "gapType_relax",
+          "lengthUnitI18nKey": "gap_metric"
+        }
+      },
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "1",
+          "intervalUnit": "10",
+          "intervalUnitValue": "7",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "strengthWeight": "0-5",
+          "intervalTypeI18nKey": "gapType_training",
+          "intervalUnitI18nKey": "gap_pickUnit1",
+          "lengthUnitI18nKey": "gap_metric",
+          "actionType": 62,
+          "actionName": "푸쉬업",
+          "selfWeightType": 1,
+          "mainPositions": [
+            5,
+            6
+          ],
+          "subPositions": [
+            22,
+            23
+          ]
+        }
+      },
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "2",
+          "intervalUnit": "1",
+          "intervalUnitValue": "60",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "intervalTypeI18nKey": "gapType_rest",
+          "lengthUnitI18nKey": "gap_metric"
+        }
+      },
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "1",
+          "intervalUnit": "10",
+          "intervalUnitValue": "5",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "strengthWeight": "0-5",
+          "intervalTypeI18nKey": "gapType_training",
+          "intervalUnitI18nKey": "gap_pickUnit1",
+          "lengthUnitI18nKey": "gap_metric",
+          "actionType": 62,
+          "actionName": "푸쉬업",
+          "selfWeightType": 1,
+          "mainPositions": [
+            5,
+            6
+          ],
+          "subPositions": [
+            22,
+            23
+          ]
+        }
+      }
+    ]
+  },
+  "modalities": [],
+  "appName": "com.xiaomi.hm.health",
+  "createdAt": 1793154423765,
+  "updatedAt": 1793154423765,
+  "status": "AVAILABLE",
+  "trainingTypeId": 10,
+  "trainingTypeName": "力量训练"
+}
